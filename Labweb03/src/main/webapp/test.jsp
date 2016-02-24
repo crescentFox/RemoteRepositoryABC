@@ -46,12 +46,13 @@ var httpXML=null;
 	<%
 		CustomerService server1 = new CustomerService();
 		CustomerBean bean1 = server1.login("Alex", "A");
-		CustomerBean bean2 = server1.login("Babe", "B");
+		CustomerBean bean2 = server1.login("Carol", "C");
 	%>
 	<br>
 	<%=bean1%>
 	<br>
 	<%=bean2%>
+	<br>
 
 
 	<%@ page import="javax.naming.*"%>
