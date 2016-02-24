@@ -10,8 +10,8 @@
 
 <h3>Welcome </h3>
 
-<h3><a href="">Login</a></h3>
-<h3><a href="">Poduct</a></h3>
+<h3><a href="secure/login.jsp">Login</a></h3>
+<h3><a href="pages/product.jsp">Product</a></h3>
 
 </body>
 </html>
