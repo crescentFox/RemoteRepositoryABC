@@ -12,6 +12,6 @@
 
 <h3><a href="secure/login.jsp">Login</a></h3>
 <h3><a href="pages/product.jsp">Product</a></h3>
-
+<h3>this is a new function</h3>
 </body>
 </html>
