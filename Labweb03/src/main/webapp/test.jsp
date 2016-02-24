@@ -45,13 +45,14 @@ var httpXML=null;
 	<%@ page import="java.util.List"%>
 	<%
 		CustomerService server1 = new CustomerService();
-		CustomerBean bean = server1.login("Alex", "A");
-		ProductService server2 = new ProductService();
-		List<ProductBean> beans = server2.select(null);
+		CustomerBean bean1 = server1.login("Alex", "A");
+		CustomerBean bean2 = server1.login("Carol", "C");
 	%>
-	<%=bean%>
 	<br>
-	<%=beans%>
+	<%=bean1%>
+	<br>
+	<%=bean2%>
+	<br>
 
 
 	<%@ page import="javax.naming.*"%>
