@@ -46,9 +46,9 @@
 	function doBlur() {
 		var id = document.getElementsByName("id")[0].value;
 		var url = "/LabWeb/pages/product.view";
-		//		var action="textText";
+				var action="textText";
 		  //   var action = "textXml";
-		var action = "textJson";
+		//var action = "textJson";
 		//		doSendPostRequest(url, id, action);
 		doSendGetRequest(url, id, action);
 	}
