@@ -12,12 +12,14 @@ public class demo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("AAA");
+		request.setCharacterEncoding("UTF-8");
+		String id=request.getParameter("id");
+		String pwd=request.getParameter("password");
+		System.out.println(id+","+pwd);
 	}
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
 		doGet(request, response);
 	}
 
