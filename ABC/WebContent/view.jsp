@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>this</h1>
+<h1>this is a function</h1>
 </body>
 </html>
