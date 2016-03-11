@@ -15,7 +15,10 @@ public class demo extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		String id=request.getParameter("id");
 		String pwd=request.getParameter("password");
-		System.out.println(id+","+pwd);
+		//System.out.println(id+","+pwd);
+		request.setAttribute("id", id);
+		request.setAttribute("pwd", pwd);
+		request.getRequestDispatcher("/view.jsp").forward(request, response);
 	}
 
 
